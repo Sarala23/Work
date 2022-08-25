@@ -1,0 +1,292 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+    padding: 10px;
+  
+  }
+  .grid-item h2{
+    font-size: 50px;
+    color: #2a304d;
+    position: relative;
+    right:150px;
+    bottom:20px;
+  }
+   
+  .grid-item p ,button{
+    position: relative;
+    right:150px;
+    bottom:10px;
+    font-size: 20px;
+
+ 
+  }
+  .grid-item-1 img{
+    position: relative;
+    left:200px;
+    top:30px;}
+
+    .grid-item {
+      background-color:#e0e6e0;
+      margin: 50px;
+      
+      text-align: center;
+      height: 620px;
+      position: relative;
+     right:100px;}
+    
+  
+  .grid-item-1{
+    background-image: url(./asset/BotanicaliPhoneWallpaper7.jpg);
+    
+    
+  }
+  .grid-container-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-items: center;
+  }
+  .grid-item-icon {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 600px;
+    
+  }
+  .grid-item-icon p{
+    text-align: center;
+    color:green;
+  }
+  .first {
+    background-color: #2a304d;
+    border-bottom: 5px double white;
+    width:full;
+    text-align: center;
+    padding: 20px;
+    color: gold;
+    font-size: xx-large ;
+  }
+  button{
+    background-color: gold;
+    text-align:center;
+    height:55px;
+    width: 100px;
+  }
+
+  
+  .grid-container-3{
+    display:grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: repeat(2,1fr);
+    margin: 100px;
+    position: relative;
+    
+  }
+  .second{
+    background-color: #2a304d;
+    padding: 50px;
+    text-align: center;
+    font-size: large ;
+    color: white;
+  }
+  .second h1 {
+    color: gold;
+    font-size: xx-large;
+  }
+  .pad
+{ border: 1px solid white;
+    padding: 30px;
+}
+.item{
+    font-size: large;
+
+}
+.third h1 {
+    color: #2a304d;
+    padding: 10px;
+    text-align: justify;
+    font-size: 50px ;
+    border-bottom: #ffd900 4px solid;
+    position: relative;
+    left:80px;
+    
+}
+
+.third p {
+  position: relative;
+  left:80px; }
+
+.forth h1 {
+    color: #2a304d;
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large ;
+    
+}
+.forth ol{
+    font-style: italic;
+}
+.fifth ol{
+    font-style: italic;
+    font-size: xx-large;
+    position: relative;
+    left:100px;
+}
+.sixth img{
+  position: relative;
+  left:120px;
+
+}
+
+
+
+.angry-grid {
+    display: grid; 
+ 
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+    gap: 10px;
+    height: 100%;
+    margin: 60px;
+    
+    
+ }
+   
+ #angrygrid-0 {
+ 
+    background-color: #ffd900; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 3;
+    
+ }
+ #angrygrid-1 {
+ 
+    background-color: #ffffff; 
+    grid-row-start: 1;
+    grid-column-start: 2;
+ 
+    grid-row-end: 3;
+    grid-column-end: 4;
+    
+ }
+ #angrygrid-2 {
+ 
+    background-color: #ffffff; 
+    grid-row-start: 3;
+    grid-column-start: 1;
+ 
+    grid-row-end: 4;
+    grid-column-end: 2;
+    
+ }
+ #angrygrid-3 {
+ 
+    background-color: #ffffff; 
+    grid-row-start: 3;
+    grid-column-start: 2;
+ 
+    grid-row-end: 4;
+    grid-column-end: 3;
+    
+ }
+ #angrygrid-4 {
+ 
+    background-color: #ffffff; 
+    grid-row-start: 3;
+    grid-column-start: 3;
+ 
+    grid-row-end: 4;
+    grid-column-end: 4;
+    
+ }
+ .semifinal h1{
+  color:#2a304d;
+  border-bottom: #ffd900 solid 4px;
+  height: 50px;
+font-size: xx-large;
+position: relative;
+left:600px;
+font-size: 50px;
+}
+.semifinal p{
+  position: relative;
+left:500px;
+}
+
+.grid-container-4{
+display: grid;
+grid-template-columns:1fr 1fr;
+background-color: #ffffff;
+padding: 10px;
+
+}
+.grid-container-4 .final{
+background-color:#e0e6e0; 
+height:500px;
+}
+
+ footer{
+    display: grid;
+    background-color:#2a304d;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+    width:1250px;
+    margin-top: 50px;
+    
+ }
+ footer button{
+  position: relative;
+  left:45px;
+ }
+
+ #angrygrid-4 h1{
+  color:#2a304d;
+  font-size: 35px;
+  margin-bottom: 20px;
+  
+ }
+ #angrygrid-1 h1{
+  text-decoration: underline gold;
+  font-size:50px;
+  color: #2a304d;
+ }
+ #angrygrid-1 h3{
+  color: #2a304d;
+  font-size: 25px;
+  
+ }
+  #angrygrid-1 p{
+    font-style: italic;
+    font-size: large;
+    position: relative;
+    right: 200px;}
+
+.ten img{
+position: relative;
+bottom:200px;
+right:150px;
+
+}
+.second{
+  position: relative;
+bottom:350px;
+left:100px;
+}
+.forth{
+  position: relative;
+bottom:280px;
+left:100px;
+}
+  
+ 
+
+ 
+   
